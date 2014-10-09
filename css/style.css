@@ -1234,7 +1234,13 @@
 		#banner :last-child {
 			margin-bottom: 0;
 		}
-
+		
+		#banner h1{
+			font-size: 2.6em;
+			font-weight: 300;
+			color: #fff;
+			text-shadow: 2px 2px 8px #364f71;
+		}
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
 		}
