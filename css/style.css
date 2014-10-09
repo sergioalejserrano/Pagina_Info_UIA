@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700,400,600);
 
 /*
 	Alpha by HTML5 UP
@@ -72,6 +73,7 @@
 		font-size: 1.75em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
+		text-align: left;
 	}
 
 	h4 {
@@ -196,6 +198,7 @@
 
 		header.major h2 {
 			margin: 0;
+			font-family: "open Sans";
 		}
 
 		header.major p {
@@ -205,25 +208,33 @@
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
+			text-align: justify;
 		}
 
-
 	section header img{		
-				border-radius: 0;
+				border-radius: 15px;
 				display: block;
 				width: 50%;
 				margin: auto;
-				border-radius: 6px;
 			}
+
 
 	section header h1{
 			margin: auto;
 			font-size: 3em;
 			font-weight: 300;
 			margin-top: 20px;
+			font-family: "open Sans";
 	}
 
+	div div section h3{
+		font-size: 1.75em;
+		line-height: 1.5em;
+		letter-spacing: -0.025em;
+		text-align: center;
+		font-family: "open Sans";
 
+	}
 
 /* Form */
 
@@ -1003,6 +1014,10 @@
 	@-ms-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
+	#Alogo{
+		border-bottom-color: transparent; 
+	}
+
 	#header {
 		background: #444;
 		color: #bbb;
@@ -1026,7 +1041,11 @@
 			position: absolute;
 			top: 0;
 		}
-
+		#header img{
+			height: 25px;
+			margin-left: 25px;
+			margin-top: 15px;
+		}
 			#header h1 a, #header li a{
 				color: #fff;
 				font-weight: 300;
@@ -1072,6 +1091,10 @@
 						text-decoration: none;
 						border: 0;
 					}
+					#header nav > ul > li a:hover{
+						background-color: rgba(255, 255, 255, 0.19);
+					}
+					
 
 						#header nav > ul > li a:not(.button).icon:before {
 							color: #999;
@@ -1179,9 +1202,9 @@
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.065), inset 0 -1px 0 0 #fff, inset 0 0 0 1px rgba(229, 229, 229, 0.5);
 		list-style: none;
-		margin: calc(-0.5em + 1px) 0 0 1px;
+		margin: 0;
 		padding: 0.5em 0;
-		width: 11em;
+		width: 12em;
 	}
 
 		.dropotron li {
@@ -1212,7 +1235,7 @@
 
 		.dropotron.level-0 {
 			font-size: 0.9em;
-			margin: 1em 0 0 0;
+			margin: 0 0 0 0;
 		}
 
 			.dropotron.level-0:before {
@@ -1258,8 +1281,9 @@
 		
 		#banner h1{
 			margin: auto;
-			font-size: 3em;
-			font-weight: 300;
+			font-family: "open Sans";
+			font-size: 4.5em;
+			font-weight: 400;
 			color: #fff;
 			text-shadow: 2px 2px 8px #364f71;
 		}
@@ -1349,6 +1373,8 @@
 	}
 	#footer p{
 		text-shadow: 2px 2px 15px #9C9C9C;
+		font-family: "open Sans";
+
 	}
 	#footer p a{
 		border-bottom: none;
@@ -1486,6 +1512,10 @@
 	display: inline-block;
 	text-decoration: none;
 }
+	.ImageFooter:hover{
+		-webkit-transition: 1s;
+		border-color: orange;
+	}
 
 .FooterP{
 	padding: 0;
