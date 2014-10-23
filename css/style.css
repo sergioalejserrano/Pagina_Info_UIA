@@ -1500,7 +1500,7 @@
 
 		.video{
 	position: relative;
-	padding: 25px  0 25px 0;
+	padding: 100px  0 25px 0;
 	overflow: auto;
 	background: rgba(204, 204, 204, 1);
 	color: #f9e5df;
@@ -1533,10 +1533,4 @@
 }
 .FooterY{
 	margin-bottom: 15px;
-}
-
-.ustream{
-	margin-top: 80px;
-	margin-bottom: 50px;
-	margin-left: 25%;
 }
