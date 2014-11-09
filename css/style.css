@@ -210,7 +210,7 @@
 			padding: 1.5em 0 0 0;
 			font-style: normal;
 			font-family: 'Crimson Text', serif;
-			line-height: 35.84px;
+			line-height: 30.84px;
 			text-align: justify;
 		}
 
@@ -516,6 +516,9 @@
 
 		.box.special {
 			text-align: center;
+		}
+		.box.special.pad{
+			padding-top: 15em;
 		}
 
 		.box .image.featured {
@@ -1276,6 +1279,7 @@
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
+
 	}
 
 		#banner :last-child {
@@ -1370,13 +1374,13 @@
 /* Footer */
 
 	#footer {
-		background: #E4E4E4;
-		padding: 4em 0 6em 0;
+		background: #272B2D;
+		padding: 4em 0 0 0;
 		text-align: center;
 	}
 	#footer p{
-		text-shadow: 2px 2px 15px #9C9C9C;
 		font-family: "open Sans";
+		color: #939596;
 
 	}
 	#footer p a{
@@ -1500,11 +1504,14 @@
 
 		.video{
 	position: relative;
-	padding: 100px  0 25px 0;
+	padding: 25px  0 25px 0;
 	overflow: auto;
 	background: rgba(204, 204, 204, 1);
 	color: #f9e5df;
 	text-align: center;
+}
+.video.envivo{
+	padding-top: 100px;
 }
 
 .ImageFooter {
@@ -1533,4 +1540,17 @@
 }
 .FooterY{
 	margin-bottom: 15px;
+}
+
+.fig{
+	display: inline-block; 
+	float: left;
+}
+.direccion{
+	display: inline-block; 
+	padding: 5em 0 4em 0;
+}
+.carreras{
+	font-size: 1.3em;
+	line-height: 28px !important;
 }
