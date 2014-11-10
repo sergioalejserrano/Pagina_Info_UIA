@@ -1374,9 +1374,10 @@
 /* Footer */
 
 	#footer {
-		background: #272B2D;
-		padding: 4em 0 0 0;
+		background: rgb(49, 50, 51);
+		padding: 0 0 0 0;
 		text-align: center;
+		border-bottom: 1px solid rgb(58, 58, 58)
 	}
 	#footer p{
 		font-family: "open Sans";
@@ -1407,6 +1408,7 @@
 			margin: 2em 0 0 0;
 			padding: 0;
 			text-align: center;
+			width: inherit;
 		}
 
 			#footer .copyright a {
@@ -1435,6 +1437,13 @@
 			/*margin-right: 30px;*/
 			margin-left: 15px;
 		}
+	#FooterUltimo{
+		width: 100%;
+		background: rgb(31, 31, 31);
+		text-align: center;
+		/*border-top: 1px groove rgb(58,58,58);*/
+	}
+	
 /* CTA */
 
 	#cta {
@@ -1553,4 +1562,12 @@
 .carreras{
 	font-size: 1.3em;
 	line-height: 28px !important;
+}
+#fb{
+		float: right;
+	margin-right: 10px;
+}
+#fba{
+
+	border-bottom: none;
 }
